@@ -1,0 +1,46 @@
+{
+  "name": "i-am-meat-proxy",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "name": "review-before-commit",
+      "source": "skills/review-before-commit",
+      "overlay": null
+    },
+    {
+      "name": "create-pr",
+      "source": "skills/create-pr",
+      "overlay": null
+    },
+    {
+      "name": "manage-issues",
+      "source": "skills/manage-issues",
+      "overlay": null
+    },
+    {
+      "name": "doc-coauthoring",
+      "source": "modules/writing-skills/skills/doc-coauthoring",
+      "overlay": "overlays/doc-coauthoring"
+    },
+    {
+      "name": "writing-clearly-and-concisely",
+      "source": "modules/writing-skills/skills/writing-clearly-and-concisely",
+      "overlay": "overlays/writing-clearly-and-concisely"
+    },
+    {
+      "name": "writing-humanizer",
+      "source": "modules/writing-skills/skills/writing-humanizer",
+      "overlay": "overlays/writing-humanizer"
+    },
+    {
+      "name": "prose-lint",
+      "source": "modules/writing-skills/skills/prose-lint",
+      "overlay": "overlays/prose-lint"
+    },
+    {
+      "name": "i-have-adhd",
+      "source": "modules/i-have-adhd-compression/skills/i-have-adhd",
+      "overlay": "overlays/i-have-adhd"
+    }
+  ]
+}

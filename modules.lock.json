@@ -1,0 +1,17 @@
+[
+  {
+    "path": "modules/writing-skills",
+    "url": "git@github.com:cocodding0723/writing-skills.git",
+    "commit": "42dd5db89df43279378e59d2744a4f7a6144e504"
+  },
+  {
+    "path": "modules/i-have-adhd-compression",
+    "url": "git@github.com:cocodding0723/i-have-adhd-compression.git",
+    "commit": "fba45c3e7cae34c37a4134649003164c5b15c436"
+  },
+  {
+    "path": "modules/global-config",
+    "url": "git@github.com:cocodding0723/i-am-meat-proxy-config.git",
+    "commit": "610ba4f3dc11aeed5e622e2bbdf267000eb34fee"
+  }
+]

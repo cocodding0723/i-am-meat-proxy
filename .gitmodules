@@ -1,0 +1,9 @@
+[submodule "modules/writing-skills"]
+	path = modules/writing-skills
+	url = git@github.com:cocodding0723/writing-skills.git
+[submodule "modules/i-have-adhd-compression"]
+	path = modules/i-have-adhd-compression
+	url = git@github.com:cocodding0723/i-have-adhd-compression.git
+[submodule "modules/global-config"]
+	path = modules/global-config
+	url = git@github.com:cocodding0723/i-am-meat-proxy-config.git

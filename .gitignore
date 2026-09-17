@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+artifacts/
+.DS_Store
+values.local.json
