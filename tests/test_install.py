@@ -19,10 +19,10 @@ class InstallTests(unittest.TestCase):
         changes=m.plan(REPO,self.roots,replace=True)
         return m.apply(changes,self.home/'backups')
 
-    def test_install_eight_skills_and_repeat_without_changes(self):
+    def test_install_nine_skills_and_repeat_without_changes(self):
         self.install()
         for root in self.roots.values():
-            self.assertEqual(len(list((root/'skills').glob('*/SKILL.md'))),8)
+            self.assertEqual(len(list((root/'skills').glob('*/SKILL.md'))),9)
         self.assertEqual(m.plan(REPO,self.roots),[])
         self.assertTrue(m.doctor(REPO,self.roots))
 

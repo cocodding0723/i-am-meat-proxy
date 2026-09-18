@@ -2,7 +2,7 @@
 
 ![버전](https://img.shields.io/badge/version-0.1.0-2563eb)
 ![도구](https://img.shields.io/badge/agents-Codex%20%C2%B7%20Claude%20%C2%B7%20Hermes-334155)
-![한국어](https://img.shields.io/badge/skills-한국어_8종-16a34a)
+![한국어](https://img.shields.io/badge/skills-한국어_9종-16a34a)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776ab)
 ![접근](https://img.shields.io/badge/repository-private-6b7280)
 
@@ -35,13 +35,14 @@ python3 scripts/meat_proxy.py doctor
 | [review-before-commit](skills/review-before-commit/SKILL.md) | 변경·검증 자료 제시, 사용자 승인, 범위를 지킨 커밋 | 코드 변경 마무리·커밋 준비 |
 | [create-pr](skills/create-pr/SKILL.md) | 변경 분석, 저장소 템플릿, 한국어 PR 작성·등록 | PR 생성·수정 요청 |
 | [manage-issues](skills/manage-issues/SKILL.md) | 버그·기능·작업 Issue 작성·등록 | Issue 생성·수정 요청 |
+| [qa-checklist](skills/qa-checklist/SKILL.md) | 바뀐 기능 요약 + QA용 한 장 체크리스트 작성·점검 | QA 문서·테스트 체크리스트 요청 |
 | [doc-coauthoring](overlays/doc-coauthoring/SKILL.md) | 문서 구조·근거·독자 관점 검토 | 기술 문서·QA·README 작성 |
 | [writing-clearly-and-concisely](overlays/writing-clearly-and-concisely/SKILL.md) | 군더더기와 모호한 표현 축소 | 문장 편집·축약 |
 | [writing-humanizer](overlays/writing-humanizer/SKILL.md) | 과장·상투어·기계적인 문체 정리 | 문체 재작성 |
 | [prose-lint](overlays/prose-lint/SKILL.md) | Vale로 모호한 환경·검증 표현 검사 | 표현 린트 요청 |
 | [i-have-adhd](overlays/i-have-adhd/SKILL.md) | 답부터 제시, 단계 정리, 한국어 표현 압축 | 명시적 호출만 |
 
-스킬 식별자는 세 도구에서 같은 영문 이름을 유지하고, 설명·본문·표시 이름은 한국어로 제공한다. 기존 영문 참고서와 라이선스는 출처 보존을 위해 유지한다. 매번 스킬 8개를 전부 읽지 않는다.
+스킬 식별자는 세 도구에서 같은 영문 이름을 유지하고, 설명·본문·표시 이름은 한국어로 제공한다. 기존 영문 참고서와 라이선스는 출처 보존을 위해 유지한다. 매번 스킬 9개를 전부 읽지 않는다.
 
 사용 예시:
 
@@ -49,6 +50,7 @@ python3 scripts/meat_proxy.py doctor
 review-before-commit으로 이번 변경을 검수할 수 있게 정리해줘. 승인 전에는 커밋하지 마.
 create-pr로 현재 변경의 PR 초안만 작성해줘.
 manage-issues로 이 버그를 현재 저장소에 등록해줘.
+qa-checklist로 이번 브랜치 QA 체크리스트 만들어줘.
 doc-coauthoring으로 이 QA 문서를 처음 보는 사람이 실행할 수 있게 다듬어줘.
 ```
 
@@ -106,7 +108,7 @@ python3 scripts/meat_proxy.py install --home /tmp/meat-proxy-example
 
 [modules.lock.json](modules.lock.json)에 저장소와 SHA를 기록한다. Git 서브모듈 포인터와 함께 검토하며 설치기가 최신 원격 버전으로 자동 변경하지 않는다.
 
-`overlays/`는 이 패키지의 한국어 진입 문서다. 설치기는 고정한 원본의 보조 파일에 한국어 문서·표시 정보를 덧씌워 조립한다. 원본 서브모듈은 수정하지 않는다. 새 검수·PR·Issue 스킬은 `skills/`에 있다.
+`overlays/`는 이 패키지의 한국어 진입 문서다. 설치기는 고정한 원본의 보조 파일에 한국어 문서·표시 정보를 덧씌워 조립한다. 원본 서브모듈은 수정하지 않는다. 새 검수·PR·Issue·QA 스킬은 `skills/`에 있다.
 
 ```sh
 # 고정된 버전 복원

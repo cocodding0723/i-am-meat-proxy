@@ -9,7 +9,7 @@ from meat_proxy import ROOT, compose
 
 def main():
     skills=compose()
-    assert len(skills)==8
+    assert len(skills)==9
     for name,data in skills.items():
         text=data['SKILL.md'].decode()
         assert re.search(r'^name: '+re.escape(name)+r'$',text,re.M),name

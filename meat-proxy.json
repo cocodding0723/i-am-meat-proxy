@@ -18,6 +18,11 @@
       "overlay": null
     },
     {
+      "name": "qa-checklist",
+      "source": "skills/qa-checklist",
+      "overlay": null
+    },
+    {
       "name": "doc-coauthoring",
       "source": "modules/writing-skills/skills/doc-coauthoring",
       "overlay": "overlays/doc-coauthoring"
